@@ -1,0 +1,55 @@
+<!-- res/layout/dialog_accessibility_permission.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:fontFamily="@font/rimouskisb_regular"
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accessibility Permission Required"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:fontFamily="@font/rimouskisb_regular"
+        android:id="@+id/dialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please grant accessibility permission to open the app."
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+
+
+        <Button
+            android:background="@drawable/rounded_button_background"
+            android:fontFamily="@font/rimouskisb_regular"
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+        <Button
+            android:background="@drawable/rounded_button_background"
+            android:fontFamily="@font/rimouskisb_regular"
+            android:id="@+id/btnGrantPermission"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Grant Permission"/>
+    </LinearLayout>
+</LinearLayout>

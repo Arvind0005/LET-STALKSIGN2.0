@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:fontFamily="@font/rimouskisb_regular"
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Closing this will disable Accessibility setting. If you wish to continue using Let'sTalkSign interpretation in other apps, switch to other app without closing. Do you wish to close?"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:fontFamily="@font/rimouskisb_regular"
+            android:id="@+id/yesButton"
+            android:background="@drawable/rounded_button_background"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes" />
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="0dp"
+            android:background="@drawable/rounded_button_background"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/rimouskisb_regular"
+            android:text="No" />
+
+    </LinearLayout>
+
+</LinearLayout>

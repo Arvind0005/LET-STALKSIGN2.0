@@ -1,0 +1,54 @@
+<!-- res/layout/permissions_required.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:fontFamily="@font/rimouskisb_regular"
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permissions Required"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:fontFamily="@font/rimouskisb_regular"
+        android:id="@+id/dialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please grant the following permissions to use this app:\n\n~1. Usage access permission\n2. Overlay permission\nYou can also grant these and other permissions later using the help page"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:fontFamily="@font/rimouskisb_regular"
+            android:id="@+id/btnGrantUsageAccess"
+            android:layout_width="0dp"
+            android:background="@drawable/rounded_button_background"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:text="Usage Permission"/>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/rimouskisb_regular"
+            android:background="@drawable/rounded_button_background"
+            android:id="@+id/btnGrantOverlayPermission"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Overlay Permission"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "238702597146",
+    "project_id": "letstalksign",
+    "storage_bucket": "letstalksign.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238702597146:android:73c2908668697bc33feda3",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSC4lQ4QvpN4JnvJweZnfs0yV1FsKkCZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
